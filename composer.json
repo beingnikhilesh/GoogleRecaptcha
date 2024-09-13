@@ -1,0 +1,20 @@
+{
+  "name": "beingnikhilesh/googlerecaptcha",
+  "description": "Google reCAPTCHA PHP Library to validate user responses with Google reCAPTCHA v3.",
+  "keywords": [
+      "php", "Google", "reCAPTCHA", "Captcha", "Google reCAPTCHA"
+  ],
+  "license": "MIT",
+  "autoload": {
+      "psr-4": {
+          "beingnikhilesh\\GoogleRecaptcha\\": "src/"
+      }
+  },
+  "require": {
+      "php": ">=7.3",
+      "guzzlehttp/guzzle": "^7.0",
+      "beingnikhilesh/error": "*"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
