@@ -25,6 +25,17 @@ The recommended way to install this Library is through Composer
   composer require beingnikhilesh\GoogleRecaptcha
 ```
     
+## Usage/Examples
+
+```javascript
+import Component from 'my-project'
+
+function App() {
+  return <Component />
+}
+```
+
+
 ## Library Usage/Examples
 
 1. Open the config.php file and Edit the Google Key and Google Secret as recieved from Google Recaptcha Site.
@@ -56,12 +67,13 @@ GoogleRecaptcha::credentials($googleSecret, $googleKey);
 ## How to Implement Google Recaptcha
 For More Details how to implement Google Recaptcha
 
-https://stevencotterill.com/articles/adding-google-recaptcha-v3-to-a-php-form
-https://code.tutsplus.com/tutorials/example-of-how-to-add-google-recaptcha-v3-to-a-php-form--cms-33752 https://www.google.com/u/8/recaptcha/admin/site/
-https://developers.google.com/recaptcha/docs/verify
-https://developers.google.com/recaptcha/docs/v3
-https://www.google.com/recaptcha/about/
+- https://stevencotterill.com/articles/adding-google-recaptcha-v3-to-a-php-form
+- https://code.tutsplus.com/tutorials/example-of-how-to-add-google-recaptcha-v3-to-a-php-form--cms-33752 
+- https://www.google.com/u/8/recaptcha/admin/site/
+- https://developers.google.com/recaptcha/docs/verify
+- https://developers.google.com/recaptcha/docs/v3
+- https://www.google.com/recaptcha/about/
+
 ## License
 
 GoogleRecaptcha is made available under the MIT License ([MIT](https://choosealicense.com/licenses/mit/))
-
